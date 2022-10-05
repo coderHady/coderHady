@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Cairo', sans-serif;
+    margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior: smooth;
+}
+
+
+header{
+background:linear-gradient(98deg ,rgb(0, 0, 0)50% ,rgb(3, 10, 73) );
+width: 100%;
+position: fixed;
+z-index: 999;
+display: flex;
+justify-content: space-around;
+align-items:center;
+padding: 10px 20px;
+
+}
+
+.logo{
+text-decoration:none; 
+text-transform: uppercase;
+color: #fbfcff;
+font-weight: 700;
+font-size: 1.8em;
+
+}
+ #coderHady {
+width: 70px;;
+border-radius:50%;
+margin-right: 30px;
+}
+.icon{
+padding: 2px;
+
+}
+.img-icon
+{
+width:20%;
+  margin:10px;
+
+
+}
+img.icon:hover{
+  transform: scale(1.1);
+}
+.navigation a{
+color: #d3d3d3;;
+text-decoration:none; 
+font-weight: 500;
+font-size: 1.8em;
+padding-left: 30px;
+margin: 10px;
+}
+
+.navigation a:hover{
+  color:   rgb(0, 217, 255);
+  
+
+}
+
+section{
+padding: 100px 100px;
+
+}
+
+.main{
+  width: 100%;
+  min-height: 100vh ;
+  display: flex;
+  align-items: center;
+  background:url(web7.jpg) no-repeat ;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  
+}
+.main h2 {
+color:rgb(255, 255, 255);
+
+font-size: 1.4em;
+font-weight: 500;
+
+}
+.main h2 span {
+display: inline-block;
+margin-top: 10px;
+color:rgb(255, 255, 255) ;
+font-size: 2em;
+font-weight: 500;
+}
+.main h3{
+color:#f0f2f7;
+font-size: 2em;
+font-weight: 700;
+letter-spacing: 1px;
+margin-top: 10px;
+margin-bottom: 30px;
+
+}
+
+.main-btn{
+color:rgb(255, 255, 255);
+background:linear-gradient(98deg ,rgb(3, 10, 73)  50% ,rgb(243, 231, 231) );
+text-decoration: none;
+font-size: 1.1em;
+font-weight: 600;
+display: inline-block;
+padding: 10px;
+letter-spacing: 1px;
+border-radius: 25px;
+transition: 0.7s ease;
+}
+.main-btn:hover{
+  
+  transform: scale(1.1);
+}
+
+.title{
+display:flex;
+justify-content: center;
+color:#3a6cf3;
+font-size: 2em;
+font-family: 500;
+margin-bottom: 30px;
+}
+
+
+.content{
+
+   display: flex;
+justify-content: center;
+flex-direction: row;   
+flex-wrap: wrap;
+    
+  }
+.card{
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+width: 21.25em;
+box-shadow: 0px 5px 25px rgba(1 1 1/15%);
+border-radius: 10px;
+padding: 25px;
+margin: 15px;
+} 
+.card:hover {
+  transform: scale(1.1);
+transition: 0.7s;
+}
+.myhobbies{
+text-align: center;
+}
+.myhobbies h3{
+ color: #3a6cf3; ;
+font-size: 1.2em;
+font-weight: 700;
+margin: 10px;
+
+}
+#larn-code{
+width: 100px;
+border-radius: 50%;
+margin-left: 30%;
+}
+#img-drawing{
+margin-left: 34%;
+}
+#img-taekwondo{
+margin-left: 35%;
+}
+.myachievements{
+background:rgb(0, 0, 0);
+color:rgb(0, 0, 0);
+}
+
+.myachievements .content{
+margin-top: 30px;
+
+}
+.myachievement-cards{
+background: rgb(255, 255, 255);
+
+border-radius: 10px;
+min-height: 14em;
+width: 20em;
+overflow: hidden;
+margin: 20px;
+transition: 0.7s ease;
+
+}
+.myachievement-cards:hover{
+transform: scale(1.1);  
+
+}
+
+.myachievement-cards:hover .myachievements-img{
+opacity: 0.9;
+}
+.info{
+padding: 1em;
+
+}
+.info-p{
+ font-size: 0.8em;
+font-weight: 800;
+ color: #050505;
+padding-left: 5%;
+}
+.myachievements-title{
+display: flex;
+justify-content:space-between;
+text-transform: uppercase;
+font-weight: 800;
+margin-left: 10px;
+color: #3a6cf3;
+
+}
+#myachievements-title-edt{
+  display: flex;
+  justify-content:space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-left: 10px;
+  color: #3a6cf3;
+  margin-top: 52px;
+
+}
+
+
+.img-edt{
+width: 320px; 
+}
+
+#p{
+  
+  
+  text-align: center;
+  font-weight: 800;
+} 
+
+.footer{
+background-color: black;
+color: #fff;
+padding: 2em;
+display: flex;
+justify-content: space-between;
+}
+
+.footer-title span{
+color:#3a6cf3 ;
+font-size: 1.3em;
+}
+
+@media  (max-width:1223px) {
+  
+  header{
+    padding: 12px 20px;
+      }
+      .logo{
+    font-size: 10px;
+    text-transform:uppercase;
+     
+    padding-right: 3px;
+    }
+      .navigation a{
+    padding-left: 5px;
+    font-size: 1em;  
+    margin: 1px;
+    
+    }
+    #coderHady{
+    margin-right: 5px;
+     width: 30px;
+    
+    }
+    .title{
+    font-size: 1.2em;
+    }
+    section{
+    padding: 80px 20px;
+    }
+    .content{
+    
+   display: flex;
+   justify-content: center;
+   flex-direction: row;   
+   flex-wrap: wrap;
+       
+    
+    
+    }
+    
+    }
+    @media (max-width:781px) {
+ .content{
+ flex-direction: column;
+      align-items: center;
+}
+
+    }
+
+    @media (max-width:573px){
+.footer-title{
+font-size: 10px;
+}
+   
+
+.footer.icon{
+padding:  1em;
+
+}
+   
+}
+@media (max-width:415px){
+  
+  .header{
+padding: 6px 10px;
+  }
+
+
+ .logo{
+    text-decoration:none; 
+    text-transform: uppercase;
+    color: #fbfcff;
+    font-weight: 700;
+    font-size: 1.3em;
+    padding-left: 0;
+    }
+
+    #coderHady {
+      width: 50px;;
+      border-radius:50px;
+      margin-right: 1px;
+      
+    }
+      .icon{
+      padding: 0;
+     width: 10px;   
+    }
+.navigation a{
+padding-left: 1px;
+font-size: 7px;
+font-weight: 500;
+}
+    }
+    @media (max-width:387px){
+    
+      .navigation a{
+        padding-left: 1px;
+        font-size: 5px;
+        font-weight: 500;
+       
+      
+      }
+     
+    
+      .card{
+      
+     
+  width: 17em;
+    
+      
+   
+      margin-left: 2px;
+    } 
+    
+#coderHady{
+width: 25px;
+border-radius: 10px;;
+}
+
+  .myachievement-cards{
+margin: 1px;;
+padding: 1px;
+margin-top:3px;
+width:17em;  
+}    
+    }
+@media (max-width: 378px){
+.footer-title{
+    padding-left :1px ;
+
+  }
+
+
+
+  
+.footer.icon{
+padding-right: 1px;
+}
+.footer-title{
+
+font-size: 5px;
+
+}
+.footer-span{
+  font: size 16px;
+  }
+
+}
+
+    @media (max-width:313px){
+
+  .card{
+width: 15em;
+    margin: left 1px;
+
+
+  }
+    }
+  @media (max-width:293px) {
+
+.img-icon{
+width: 30%;
+ }
+ 
+.icon{
+  width: 10px;
+  }
+
+  .footer-title{
+    font-size: 2px;
+      }
+    .font-span{
+    
+      font-size: 7px;
+    }
+}
+@media (max-width:246px){
+
+.icon{
+width: 5px;
+
+}
+  .footer-title{
+    font-size: 2px;
+      }
+    .font-span{
+    
+      font-size: 3px;
+    }
+}
